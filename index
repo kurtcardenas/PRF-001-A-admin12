@@ -26,10 +26,8 @@
 </head>
 <body>
     <!-- 
-      This URL matches your Apps Script 'switch' logic.
-      'page=admin' triggers the 'Xuerr Tools Admin' title and loads 'index.html' from your Google project.
-      'auth' and 'dev' parameters bypass your SecurityShield guard.
+      Embedded Google Apps Script Web App
     -->
-    <iframe src="https://script.google.com/macros/s/AKfycbz3LtxfevaLQxO6WRwsuqw5KsH9ehMUR7VyWotLRIhSJFiXCFlE_tau2o4jf_kxUONBMw/exec?page=admin&auth=secure-xue-2026&dev=xue-master-key"></iframe>
+    <iframe src="https://script.google.com/a/macros/xue-rr.com/s/AKfycbz3LtxfevaLQxO6WRwsuqw5KsH9ehMUR7VyWotLRIhSJFiXCFlE_tau2o4jf_kxUONBMw/exec?page=admin&dev=xue-master-key"></iframe>
 </body>
 </html>
