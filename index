@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Resort Admin Portal</title>
+    <title>Xuerr Tools Admin</title>
     <style>
-        /* This makes the app take up the whole screen without scrollbars */
+        /* This ensures the embedded App Script covers the full viewport 
+           without any double scrollbars or margins.
+        */
         body, html { 
             margin: 0; 
             padding: 0; 
@@ -22,9 +24,10 @@
 </head>
 <body>
     <!-- 
-      The iframe source includes the admin page parameter, 
-      the required portal token, and your developer master key.
+      This URL matches your Apps Script 'switch' logic.
+      'page=admin' triggers the 'Xuerr Tools Admin' title and loads 'index.html' from your Google project.
+      'auth' and 'dev' parameters bypass your SecurityShield guard.
     -->
-    <iframe src="https://script.google.com/a/macros/xue-rr.com/s/AKfycbz3LtxfevaLQxO6WRwsuqw5KsH9ehMUR7VyWotLRIhSJFiXCFlE_tau2o4jf_kxUONBMw/exec?page=admin&token=xuerr_admin_portal&dev=xue-master-key"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbz3LtxfevaLQxO6WRwsuqw5KsH9ehMUR7VyWotLRIhSJFiXCFlE_tau2o4jf_kxUONBMw/exec?page=admin&auth=secure-xue-2026&dev=xue-master-key"></iframe>
 </body>
 </html>
